@@ -149,19 +149,10 @@ UPROGS=\
 	$U/_grind\
 	$U/_wc\
 	$U/_zombie\
-	$U/_pingpong\
-	$U/_sleep\
-	$U/_primes\
-	$U/_find\
-	$U/_test\
-	$U/_xargs\
-
-
-ifeq ($(LAB),syscall)
-UPROGS += \
 	$U/_trace\
-	$U/_sysinfotest
-endif
+	$U/_sysinfotest\
+
+
 
 ifeq ($(LAB),trap)
 UPROGS += \
